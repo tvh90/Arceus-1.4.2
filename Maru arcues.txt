@@ -5,7 +5,7 @@ repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main");
 _G.Team = "Pirate" -- Marine / Pirate
 _G.KAITUN_SCRIPT = true
-_G.RemoveTrigonUi = true 
+_G.FixBugLDArce = true
 _G.LogsDes = {
     ["Enabled"] = true, -- เปิดการใช้งาน
     ["SendAlias"] = true, -- เปิดการส่ง Alias
@@ -103,7 +103,7 @@ _G.GunSettings = { -- ปืนที่จะทำ
     ['SerpentBow'] = true,
     ['SoulGuitar'] = true
 }
-getgenv().Key = "MARU-EK6G-EBVY4-8IRG-PO7QH-U9LO"
+getgenv().Key = "MARU-M8O5-AMZOV-MPXO-KKZS8-RPR1"
 getgenv().id = "1086721157711024200"
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
