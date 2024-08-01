@@ -101,7 +101,7 @@ _G.SharkAnchor_Settings = {
 _G.GunSettings = { -- ปืนที่จะทำ
     ['Kabucha'] = true,
     ['SerpentBow'] = true,
-    ['SoulGuitar'] = false
+    ['SoulGuitar'] = true
 }
 getgenv().Key = "MARU-M8O5-AMZOV-MPXO-KKZS8-RPR1"
 getgenv().id = "1086721157711024200"
